@@ -1,7 +1,8 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <Header />
+      <Settings />
     </v-main>
 
     <AppFooter />
