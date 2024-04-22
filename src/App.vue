@@ -1,14 +1,8 @@
 <template>
   <v-app>
+    <Header />
     <v-main>
-      <Header />
-      <Settings />
+      <router-view />
     </v-main>
-
-    <AppFooter />
   </v-app>
 </template>
-
-<script setup>
-  //
-</script>
