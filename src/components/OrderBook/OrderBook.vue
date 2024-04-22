@@ -1,5 +1,5 @@
 <template>
-    <v-container class="mx-auto" color="grey-lighten-3" max-width="1000">
+    <v-container color="grey-lighten-3" max-width="1000">
         <ChangeQuantity />
         <AsksBids />
     </v-container>

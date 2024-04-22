@@ -1,7 +1,7 @@
 <template>
 
     <v-row>
-      <v-col>
+      <v-col cols="12" sm="6">
         <v-table :height="MobileSee" fixed-header>
           <thead>
             <tr>
@@ -11,7 +11,7 @@
               <th class="text-left">
                 кол-во
               </th>
-              <th class="text-left d-none d-md-flex">
+              <th class="text-left d-none d-lg-flex">
                 всего
               </th>
             </tr>
@@ -20,13 +20,13 @@
             <tr v-for="item in MyStore.asks">
               <td>{{ item[0] }}</td>
               <td>{{ item[1] }}</td>
-              <td class="d-none d-md-flex">{{ item[0] * item[1] }}</td>
+              <td class="d-none d-lg-flex">{{ item[0] * item[1] }}</td>
             </tr>
           </tbody>
         </v-table>
 
       </v-col>
-      <v-col>
+      <v-col cols="12" sm="6">
 
 
         <v-table :height="MobileSee" fixed-header>
@@ -38,7 +38,7 @@
               <th class="text-left">
                 кол-во
               </th>
-              <th class="text-left d-none d-md-flex">
+              <th class="text-left d-none d-lg-flex">
                 всего
               </th>
             </tr>
@@ -47,7 +47,7 @@
             <tr v-for="item in MyStore.bids">
               <td>{{ item[0] }}</td>
               <td>{{ item[1] }}</td>
-              <td class="d-none d-md-flex">{{ item[0] * item[1] }}</td>
+              <td class="d-none d-lg-flex">{{ item[0] * item[1] }}</td>
             </tr>
           </tbody>
         </v-table>
