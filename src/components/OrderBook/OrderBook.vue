@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid ma-0 pa-0 fill-height>
+    <v-container class="mx-auto" color="grey-lighten-3" max-width="1000">
         <ChangeQuantity />
         <AsksBids />
     </v-container>
